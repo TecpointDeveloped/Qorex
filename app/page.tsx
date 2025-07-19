@@ -20,6 +20,7 @@ import flip from "@/public/layout/flip.jpg";
 import Autoplay from "embla-carousel-autoplay"
 import { useRef } from "react";
 import CarouselEmbla from "@/components/ui/CarouselEmbla";
+import Footer from "@/components/footer/page";
 
 export default function Home() {
   const plugin = useRef(
@@ -166,6 +167,8 @@ export default function Home() {
           <p>24-hour smart heart rate monitoring With your health in mind</p>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

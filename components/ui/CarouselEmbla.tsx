@@ -22,7 +22,7 @@ const slides = [
   {
     src: "/BANNERSITE_POWERPEAK_BATTERYPACK.webp",
     alt: "Imagen 3",
-  }
+  },
 ];
 
 export default function CarouselEmbla() {
