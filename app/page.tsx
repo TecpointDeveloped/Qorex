@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <div className="">
-      <NavbarComponent />
+      <NavbarComponent position="absolute" color="transparent" />
       <CarouselEmbla />
 
       <section className="w-full h-[200px] bg-gradient-to-t from-[#E7F6FF] to-transparent grid place-items-center relative">
@@ -134,15 +134,16 @@ export default function Home() {
             <div className="w-full max-w-3xl justify-between h-auto bg-white/10 backdrop-blur-xl rounded-3xl shadow-xl py-8 px-8 flex flex-col md:flex-row gap-6 md:gap-12 items-center pointer-events-auto border border-[#e0e7ef]">
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
                 <h3 className="text-[#0066FF] text-lg font-bold mb-1 tracking-wide">Dirección</h3>
-                <p className="text-gray-700 text-base">9450 NW 58th St Suite 104,<br />Doral, FL 33178, Estados Unidos</p>
+                <p className="text-gray-700 text-base">Qorex Group Inc
+                  5900 NW 97th Ave<br />Suite C-21 Doral, FL 33178</p>
               </div>
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
                 <h3 className="text-[#0066FF] text-lg font-bold mb-1 tracking-wide">Teléfono</h3>
-                <p className="text-gray-700 text-base">+1 786-678-2951</p>
+                <p className="text-gray-700 text-base">+1 (786)-678-2951</p>
               </div>
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
                 <h3 className="text-[#0066FF] text-lg font-bold mb-1 tracking-wide">Email</h3>
-                <a href="mailto:sales@qorex.com" className="text-gray-700 text-base underline hover:text-[#0066FF] transition-colors">sales@qorex.com</a>
+                <a href="mailto:sales@qorex.com" className="text-gray-700 text-base underline hover:text-[#0066FF] transition-colors">sales@qorexgroup.com</a>
               </div>
             </div>
           </div>

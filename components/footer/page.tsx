@@ -1,6 +1,7 @@
 "use cliente";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -46,18 +47,15 @@ const Footer = () => {
           <ul className="space-y-1">
             <li>WhatsApp <span className="text-green-600 text-xs">New</span></li>
             <li>Linkedin</li>
-            <li>Instagram</li>
             <li>Email</li>
           </ul>
         </div>
 
-        {/* Explore */}
+        {/* Location */}
         <div>
-          <h4 className="font-semibold text-gray-900 mb-2">Explore</h4>
+          <h4 className="font-semibold text-gray-900 mb-2">Location</h4>
           <ul className="space-y-1">
-            <li>Barnds</li>
-            <li>Questions</li>
-            <li>How can we help you</li>
+            <li>5900 NW 97th AveSuite C-21Doral, FL 33178</li>
           </ul>
         </div>
 
@@ -65,30 +63,18 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold text-gray-900 mb-2">Company</h4>
           <ul className="space-y-1">
-            <li>About Hashnode</li>
-            <li>Careers</li>
-            <li>Logos and media</li>
-            <li>Changelog</li>
-            <li>Feature Requests</li>
-          </ul>
-
-          <h4 className="font-semibold text-gray-900 mt-4 mb-2">Blogs</h4>
-          <ul className="space-y-1">
-            <li>Official Blog</li>
-            <li>Engineering Blog</li>
-            <li>Hashnode Townhall</li>
+            <li>About us</li>
+            <li>Brands</li>
+            <li>Mission & Vision</li>
           </ul>
         </div>
 
         {/* Partner & Support */}
         <div>
-          <h4 className="font-semibold text-gray-900 mb-2">Partner with us</h4>
-
-          <h4 className="font-semibold text-gray-900 mt-4 mb-2">Support</h4>
+          <h4 className="font-semibold text-gray-900 mb-2">Support</h4>
           <ul className="space-y-1">
             <li>Support docs</li>
             <li>Contact</li>
-            <li>Join discord</li>
           </ul>
         </div>
       </div>
@@ -96,10 +82,10 @@ const Footer = () => {
       {/* Línea inferior */}
       <div className="border-t text-center py-4 text-xs text-gray-500 bg-white">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-          <p>© 2024 Hashnode — LinearBytes Inc.</p>
+          <p>© {new Date().getFullYear()} Qorex Group Inc.</p>
           <div className="space-x-4 mt-2 md:mt-0">
             <a href="#" className="hover:underline">Privacy Policy</a>
-            <a href="#" className="hover:underline">Terms</a>
+            <Link href="/terms" className="hover:underline">Terms</Link>
             <a href="#" className="hover:underline">Code of conduct</a>
           </div>
         </div>
