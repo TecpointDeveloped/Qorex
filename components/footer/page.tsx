@@ -41,13 +41,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Product */}
+        {/* Contact */}
         <div>
           <h4 className="font-semibold text-gray-900 mb-2">Contact</h4>
-          <ul className="space-y-1">
-            <li>WhatsApp <span className="text-green-600 text-xs">New</span></li>
-            <li>Linkedin</li>
-            <li>Email</li>
+          <ul className="space-y-1 flex flex-col">
+            <Link href="https://wa.me/+17866782951" rel="noopener noreferrer" target="_blank">WhatsApp <span className="text-green-600 text-xs">New</span></Link>
+            <Link href="https://www.linkedin.com/company/qorex-group-inc/" rel="noopener noreferrer" target="_blank">Linkedin</Link>
+            <Link href="mailto:sales@qorexgroup.com">Email</Link>
           </ul>
         </div>
 

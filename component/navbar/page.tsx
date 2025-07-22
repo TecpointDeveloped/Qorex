@@ -76,7 +76,9 @@ function NavbarComponent({ color, position, darktheme }: { color?: string, darkt
           </Link>
           <Link
             tabIndex={4}
-            href="/"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSek3dXpaOwlMZ4LSh3Xen6mWRW08FAPfGiw4A3-f5IzxwWgLA/viewform?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className='text-base font-medium bg-[#0066FF] py-3 px-6 rounded-full text-white transition-colors'
           >
             CONTACT US

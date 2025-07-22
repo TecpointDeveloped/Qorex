@@ -163,10 +163,78 @@ export default function Home() {
           priority
         />
 
-        <div className="w-1/2 h-full bg-red-200 flex justify-center p-4 flex-col">
-          <h4 className="text-[#FE0000] text-5xl font-extrabold">XO SMARTWATCH</h4>
-          <p>24-hour smart heart rate monitoring With your health in mind</p>
+        <div className="w-1/2 h-full flex justify-center p-4 flex-col gap-8">
+          <h4 className="text-[#FE0000] text-5xl font-extrabold">XO Smartwatch</h4>
+          <p className="w-[80%]">
+            Uncover unparalleled quality with the Smartwatch XO, where the philosophy of "Simple is Beauty" truly comes to life.
+            Immerse yourself in a superior visual experience with its elite AMOLED display, and appreciate construction featuring premium materials engineered
+            to withstand your dynamic lifestyle.
+          </p>
+
+          <button
+            className="bg-[#FE0000] text-white font-semibold py-3 px-6 rounded-lg shadow hover:bg-[#fe0000c4] transition-colors w-fit cursor-pointer"
+          >
+            View Catalog
+          </button>
         </div>
+      </section>
+
+      <section className="w-full h-[80vh] bg-[#d6d6d6] flex items-center justify-between">
+        <div className="w-1/2 h-full flex justify-center pl-20 p-4 flex-col gap-8">
+          <h4 className="text-[#FE0000] text-5xl font-extrabold">Hoco video camera</h4>
+          <p className="w-full">
+            Experience the seamless synergy of intuitive usability and the formidable power of its exceptional optics, meticulously crafted to render every intricate
+            detail with breathtaking clarity. From sweeping, vibrant landscapes to poignant, intimate portraits, each shot transcends into a masterpiece.
+          </p>
+
+          <button
+            className="bg-[#FE0000] text-white font-semibold py-3 px-6 rounded-lg shadow hover:bg-[#fe0000c4] transition-colors w-fit cursor-pointer"
+          >
+            View Catalog
+          </button>
+        </div>
+
+        <Image
+          src="/hoco_camaras.png"
+          alt="Footer"
+          width={300}
+          height={400}
+          className="w-fit h-[90%] aspect-video object-contain relative z-10"
+          quality={100}
+          priority
+        />
+      </section>
+
+      <section className="w-full h-[60vh] bg-[#eeeeee] flex items-center justify-between">
+        <Image
+          src="/travel_adapter_pp.png"
+          alt="Footer"
+          width={968}
+          height={300}
+          className="w-1/3 h-full aspect-video object-contain relative z-10 bg-orange-500"
+          quality={100}
+          priority
+        />
+
+        <Image
+          src="/langsdom_ts28.png"
+          alt="Footer"
+          width={968}
+          height={300}
+          className="w-1/3 h-full aspect-video object-contain relative z-10 bg-[#fff3dc]"
+          quality={100}
+          priority
+        />
+
+        <Image
+          src="/magbuddy.png"
+          alt="Footer"
+          width={968}
+          height={300}
+          className="w-1/3 h-full aspect-video object-contain relative z-10 bg-[#6ec5ff]"
+          quality={100}
+          priority
+        />
       </section>
 
       <Footer />

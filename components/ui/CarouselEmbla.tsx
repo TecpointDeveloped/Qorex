@@ -23,6 +23,10 @@ const slides = [
     src: "/BANNERSITE_POWERPEAK_BATTERYPACK.webp",
     alt: "Imagen 3",
   },
+  {
+    src: "/banner_hoco.jpg",
+    alt: "Imagen 3",
+  }
 ];
 
 export default function CarouselEmbla() {
@@ -69,6 +73,9 @@ export default function CarouselEmbla() {
                     alt={slide.alt}
                     width={1200}
                     height={800}
+                    quality={100}
+                    priority
+                    loading="eager"
                     className="object-cover w-full h-full"
                   />
                 </div>
