@@ -166,7 +166,7 @@ export default function Home() {
         <div className="w-1/2 h-full flex justify-center p-4 flex-col gap-8">
           <h4 className="text-[#FE0000] text-5xl font-extrabold">XO Smartwatch</h4>
           <p className="w-[80%]">
-            Uncover unparalleled quality with the Smartwatch XO, where the philosophy of "Simple is Beauty" truly comes to life.
+            Uncover unparalleled quality with the Smartwatch XO, where the philosophy of Simple is Beauty truly comes to life.
             Immerse yourself in a superior visual experience with its elite AMOLED display, and appreciate construction featuring premium materials engineered
             to withstand your dynamic lifestyle.
           </p>
